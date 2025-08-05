@@ -1,0 +1,11 @@
+fastapi
+redis
+types-redis
+uvicorn
+sqlalchemy
+bcrypt==3.2.2
+passlib[bcrypt]==1.7.4
+python-multipart
+python-jose
+python-dotenv
+aiofiles

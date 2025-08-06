@@ -1,1 +1,5 @@
 MyAPI: Product 4 requested with data: title='string' description='string' price=0.0
+MyApp: Test Message
+	GET http://127.0.0.1:8000/dependency?tag=MyApp&message=Test%20Message&seperator=--
+	Headers: Headers({'host': '127.0.0.1:8000', 'connection': 'keep-alive', 'sec-ch-ua-platform': '"Windows"', 'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36', 'accept': 'application/json', 'sec-ch-ua': '"Not)A;Brand";v="8", "Chromium";v="138", "Google Chrome";v="138"', 'sec-ch-ua-mobile': '?0', 'sec-fetch-site': 'same-origin', 'sec-fetch-mode': 'cors', 'sec-fetch-dest': 'empty', 'referer': 'http://127.0.0.1:8000/docs', 'accept-encoding': 'gzip, deflate, br, zstd', 'accept-language': 'en-US,en;q=0.9,fr-CA;q=0.8,fr;q=0.7,de;q=0.6', 'cookie': 'cookie_name=cookie_value; test_cookie=cookie_value'})
+	Query Params: tag=MyApp&message=Test+Message&seperator=--

@@ -9,3 +9,8 @@ python-multipart
 python-jose
 python-dotenv
 aiofiles
+requests
+pytest
+httpx
+jinja2
+websockets

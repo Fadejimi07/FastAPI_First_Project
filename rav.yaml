@@ -1,4 +1,4 @@
 scripts:
   runserver: uvicorn main:app --reload
   installs: pip install -r requirements.txt
-  test: pytest src/tests.py
+  test: pytest tests_main.py

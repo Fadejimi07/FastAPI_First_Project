@@ -1,0 +1,1 @@
+MyAPI: Product 4 requested with data: title='string' description='string' price=0.0
